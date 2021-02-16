@@ -62,12 +62,8 @@ nav #selected, nav a:hover, nav a:active {
 	padding-left: 20px;
 }
 #crackpipe {
-    float: right;
-    margin-right: 35px;
-    padding-bottom: 20px;
-	
-	padding-right: 600px;
-	padding-top: 20px;
+    float: left;
+	/*padding-right: 600px*/
 }
 
 
