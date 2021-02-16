@@ -49,6 +49,8 @@ nav #selected, nav a:hover, nav a:active {
 #header {
     display: block;
 	
+    height:auto;
+	width: 150%;
 }
 
 #header-left {
@@ -61,8 +63,6 @@ nav #selected, nav a:hover, nav a:active {
     padding-bottom: 20px;
 	padding-left: 20px;
 }
-
-
 
 #title {
     
