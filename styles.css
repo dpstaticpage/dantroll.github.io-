@@ -10,111 +10,41 @@ html, body {
     font-family: Montserrat;
 }
 
-/* MAIN NAVIGATION */
-
-nav {
-    padding-top: 7px;
-
-}
-
-nav ul {
-    list-style: none;
-    list-style-image: none;
-    padding-left: 35px;
-}
-
-nav li {
-    display: inline;
-    margin: 0 0.75em 10px 0.75em;
-}
-
-nav a {
-    text-decoration: none;
-    font-size: 14px;   
-}
-
-nav a:link, nav a:visited {
-    color: #8a8a8a;
-}
-
-nav #selected, nav a:hover, nav a:active {
-    color: #222;
-    font-weight: bold;
-    border-bottom: 1px solid black;
-    padding-bottom: 2px;
-}
-
 /* HEADER */
-
-#header {
-    display: block;
-	
-    height:auto;
-	width: 160%;
-}
-
-#header-left {
-    float: left;
-}
-
-#header-right {
-    float: left;
-    margin-right: 35px;
-    padding-bottom: 20px;
-	padding-left: 20px;
-}
-
 #title {
-    
-    font-size: 60px;
-    font-family: 'Stencil Std', fantasy;
-    font-weight: 900;
-    font-style: bold;
-	color: black;
-    line-height: 1em;
-    letter-spacing: 0.0714286em;
-    margin-bottom: 15px;
+	float: left;
+	width: 80%;
+	text-align: left;
 }
+#links {
+	float: right;
+	height: auto;
+	width: 20%;
+	text-align: right;
+	}
 
-#subtitle {
-    font-size: 20px;
-    line-height: 1em;
-    color: #999;
-    text-align: right;
-    margin-bottom: 0;
-}
 
 /* HEADER MOBILE RULES */
-
 @media only screen and (max-width: 640px) {
 
-    nav ul {
-        padding-left: 0;
-    }
-    
-    #header-left {
-        float: none;
-        text-align: center;
-        padding-bottom: 10px;
+   #title {
+    float: left;
+	height: auto;
+	width: 170%;
+	text-align: left;
     }
 
-    #header-right {
-        float: left;
-        margin: 0;
-        padding-bottom: 10px;
-    }
-
-    #title {
-        text-align: center;
-    }
-
-    #subtitle {
-        text-align: center;
+    #links {
+    float: right;
+	height: auto;
+	width: 50%;
+	text-align: right;
     }
 }
 
-/* IMAGES */
 
+
+/* IMAGES */
 img {
     width: 33.33%;
 }
@@ -125,7 +55,6 @@ img {
 }
 
 /*  IMAGES MOBILE RULES */
-
 @media only screen and (max-width: 640px) {
     img {
         width: 50%;
@@ -135,67 +64,5 @@ img {
 @media only screen and (max-width: 320px) {
     img {
         width: 100%;
-    }
-}
-
-/* ABOUT PAGE */
-
-#container {
-    display: block;
-    clear: both;
-    max-width: 80%;
-    margin: auto;
-}
-
-#about-section {
-    display: block;
-    float: left;
-    max-width: 50%;
-}
-
-#about-title {
-    font-weight: 100;
-    color: #222;
-}
-
-#about-body {
-    font-size: 14px;
-    font-weight: 100;
-    line-height: 1.6em;
-    color: #454545;
-}
-
-#contact-section {
-    display: block;
-    float: right;
-    margin-right: 20%;
-}
-
-#contact-title {
-    font-weight: 100;
-    color: #222;
-}
-
-#email {
-    color: #454545;
-    text-decoration: none;
-    font-size: 14px;
-    letter-spacing: 0.01px;
-    font-weight: 600;
-}
-
-/* ABOUT MOBILE RULES */
-
-@media only screen and (max-width: 652px) {
-    
-    #about-section {
-        float: none;
-        max-width: 100%;
-        margin-bottom: 25px;
-    }
-
-    #contact-section {
-        float: none;
-        margin-bottom: 50px;
     }
 }
