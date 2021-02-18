@@ -1,6 +1,3 @@
-@import url('https://fonts.googleapis.com/css?family=Dosis');
-@import url('https://fonts.googleapis.com/css?family=Montserrat'); 
-
 html, body {
     margin-left: 0;
     margin-right: 0;
@@ -11,38 +8,68 @@ html, body {
 }
 
 /* HEADER */
-#title {
-	float: left;
-	width: 80%;
-	text-align: left;
+.container {}
+
+.left {
+width:80%;
+float:left;
 }
-#links {
-	float: right;
-	height: auto;
-	width: 20%;
-	text-align: right;
-	}
+
+.right {
+width:20%;
+float:right;
+text-align: right;
+}
 
 
 /* HEADER MOBILE RULES */
 @media only screen and (max-width: 640px) {
 
-   #title {
-    float: left;
-	height: auto;
-	width: 170%;
-	text-align: left;
-    }
+.container {}
 
-    #links {
-    float: right;
-	height: auto;
-	width: 50%;
-	text-align: right;
-    }
+.left {
+width:100%;
+float:left;
 }
 
+.right {
+width: 50%;
+float:right;
+text-align: right;
+}
+}
 
+@media only screen and (max-width: 1366px) {
+
+.container {}
+
+.left {
+width:100%;
+float:left;
+}
+
+.right {
+width: 50%;
+float:right;
+text-align: right;
+}
+}
+
+@media only screen and (max-width: 1920px) {
+
+.container {}
+
+.left {
+width:100%;
+float:left;
+}
+
+.right {
+width: 50%;
+float:right;
+text-align: right;
+}
+}
 
 /* IMAGES */
 img {
@@ -52,6 +79,15 @@ img {
 #gallery {
     display: block;
     clear: both;
+}
+#game {
+    display: block;
+    clear: both;
+	padding-top: 500px;
+	padding-bottom: 500px;
+	text-align: center;
+	color: white;
+	background-color: black;
 }
 
 /*  IMAGES MOBILE RULES */
